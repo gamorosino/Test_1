@@ -1,1 +1,2 @@
-echo "hello world"
+t1=$(jq -r .t1 config.json) #read t1
+echo "this is my t1 file " $t1
